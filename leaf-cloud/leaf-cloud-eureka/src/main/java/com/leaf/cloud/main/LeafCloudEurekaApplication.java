@@ -2,11 +2,13 @@ package com.leaf.cloud.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-public class LeafCloudMainApplication {
+@EnableEurekaServer
+public class LeafCloudEurekaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LeafCloudMainApplication.class, args);
+		SpringApplication.run(LeafCloudEurekaApplication.class, args);
 	}
 }
