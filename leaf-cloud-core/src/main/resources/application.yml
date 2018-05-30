@@ -1,0 +1,14 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: leaf-cloud-core    
+logging:
+  level:
+    root: INFO
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+  instance:
+    preferIpAddress: true

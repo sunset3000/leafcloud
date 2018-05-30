@@ -10,6 +10,7 @@
 
 	 <modules>
 	   <module>leaf-cloud-eureka</module>
+	   <module>../leaf-cloud-core</module>
 	 </modules>
 	 
 	<parent>
